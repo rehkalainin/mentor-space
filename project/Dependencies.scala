@@ -22,7 +22,7 @@ object Dependencies {
 
 
   // JDBC with PostgreSQL
-  val postgresql = "org.postgresql" % "postgresql" % "42.2.10"
+  val postgresql = "org.postgresql" % "postgresql" % postgresqlVersion
   val akkaPersistenceJdbc = "com.github.dnvriend" %% "akka-persistence-jdbc" % akkaPersistenceJdbcVersion
 
   // Cassandra
