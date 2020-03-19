@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/api.iml" filepath="$PROJECT_DIR$/.idea/modules/api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/boot.iml" filepath="$PROJECT_DIR$/.idea/modules/boot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/domain.iml" filepath="$PROJECT_DIR$/.idea/modules/domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mentor-space.iml" filepath="$PROJECT_DIR$/.idea/modules/mentor-space.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mentor-space-build.iml" filepath="$PROJECT_DIR$/.idea/modules/mentor-space-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/serialization.iml" filepath="$PROJECT_DIR$/.idea/modules/serialization.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/service.iml" filepath="$PROJECT_DIR$/.idea/modules/service.iml" />
+    </modules>
+  </component>
+</project>
