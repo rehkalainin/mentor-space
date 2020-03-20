@@ -31,12 +31,12 @@
 [error] 	at sbt.Execute.$anonfun$submit$1(Execute.scala:281)
 [error] 	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:178)
 [error] 	at sbt.CompletionService$$anon$2.call(CompletionService.scala:37)
-[error] 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-[error] 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-[error] 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-[error] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-[error] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-[error] 	at java.lang.Thread.run(Thread.java:748)
+[error] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+[error] 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+[error] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+[error] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+[error] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+[error] 	at java.base/java.lang.Thread.run(Thread.java:834)
 [error] (domain / update) sbt.librarymanagement.ResolveException: Error downloading org.postgresql:postgresql: 42.2.10
 [error]   Not found
 [error]   Not found

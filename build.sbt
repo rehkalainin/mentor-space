@@ -5,7 +5,8 @@ name := "mentor-space"
 version := "0.1"
 scalaVersion := "2.13.1"
 
-resolvers += Resolver.jcenterRepo
+//resolvers += Resolver.jcenterRepo
+resolvers += "Sonatype OSS Snapshots" at "https://oss.sonatype.org/content/repositories/snapshots"
 
 lazy val domain = project
   .settings(libraryDependencies ++= allDependencies)
@@ -26,3 +27,6 @@ lazy val `mentor-space` = Project("root", file("."))
   .aggregate(domain, serialization, service, api, boot)
   .settings(moduleName := "mentor-space")
   .settings(name := "mentor-space")
+
+
+
